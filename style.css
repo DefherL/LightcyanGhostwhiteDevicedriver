@@ -1,9 +1,66 @@
+/* Estilos globais */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1, h2 {
-font-weight: bold;
+  font-weight: bold;
 }
+
+/* Navbar fixa */
+.navbar {
+  padding: 1rem 0;
+}
+
+/* Seção de Destaque */
+header {
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Cards de Serviços */
 .card {
-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: none;
+  border-radius: 10px;
 }
+
 .card:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Formulário de Contato */
+#contatoForm {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+  padding: 1.5rem 0;
+  background-color: #343a40;
+  color: #fff;
 }
